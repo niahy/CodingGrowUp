@@ -26,6 +26,9 @@
 详见[TypeConversion.java](TypeConversion.java)  
 
 ## 运算符
+优先级：算数>关系>逻辑>赋值  
+
+下方的运算符的使用详见[Operators.java](Operators.java)
 ### 算术运算符
 | 运算符 | 描述 |
 |---------|---------|
