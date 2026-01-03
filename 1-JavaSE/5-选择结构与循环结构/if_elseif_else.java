@@ -14,5 +14,7 @@ public class if_elseif_else{
         }else{
             System.out.println("成绩不及格");
         }
+
+        Scanner.close();//关闭Scanner对象
     }
 }
