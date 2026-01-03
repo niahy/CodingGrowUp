@@ -1,7 +1,7 @@
 # 5-选择结构与循环结构
 ## 基本选择结构
 - 详见  [if_elseif_else.java](if_elseif_else.java)
-- if语句是可以嵌套的
+- ifelse语句是可以嵌套的
 ### if语句
 ```
 //如果逻辑表达式的值为真，则执行if代码块
@@ -33,6 +33,7 @@ if(逻辑表达式1){
 ## 基本循环结构
 
 ### for循环
+- 详见 [ForLoop.java](ForLoop.java)
 ```
 for(初始化语句;循环条件;更新语句){
     循环体
