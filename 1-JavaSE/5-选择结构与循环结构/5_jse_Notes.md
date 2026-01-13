@@ -66,3 +66,23 @@ do{
  必定会执行一次循环体
   */
 ```
+## 多路选择语句
+- 详见 [Switch.java](Switch.java)
+```
+switvh(字符或整数){
+    case 字符或整数值1:
+        执行语句1;
+        break;//防止case穿透
+    case 字符或整数值2:
+        执行语句2;
+        break;
+         ...
+    default:
+        执行语句3;
+}
+ /*
+ 自上而下依次执行switch中的case，判断switch字符或整数与case的相匹配，则执行此case，并且一直执行到最后
+ 如果没有匹配的case，则执行default中的语句
+ 为了防止case穿透，一般加上break
+ */
+```
