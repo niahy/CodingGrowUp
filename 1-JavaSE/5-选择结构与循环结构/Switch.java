@@ -1,4 +1,4 @@
-//进行加减乘除运算
+//进行加减乘除运算的选择
 import java.util.Scanner;
 
 public class Switch{
