@@ -12,9 +12,14 @@
 }
 ```
 ## 基于类创建对象（实例化/测试类/主类）
-- 可参考 [PersonObject.java](src/PersonObject.java)
+- 可参考 [PersonObject1.java](src/PersonObject1.java)
 ```
 类名 变量名/对象名 = new 类名();
 例如：Person p = new Person();
 ```
 在对象类的文件中，可以调用类中声明的方法,如`p.eat();`
+# 对象的底层类似于指针
+- 可参考 [PersonObject2.java](src/PersonObject2.java)
+同类的对象在互相赋值后，底层指针会指向同一块内存空间，改变一个对象的属性，另一个对象属性也会改变
+对象作为方法的传参时，调用方法，方法外部的对象属性会根据方法处理而改变
+与之容易混淆的就是变量的传参，变量作为参数传递到方法内部进行处理时，方法外部的变量不会改变
