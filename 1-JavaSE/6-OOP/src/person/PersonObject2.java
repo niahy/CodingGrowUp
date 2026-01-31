@@ -1,3 +1,5 @@
+package person;
+
 public class PersonObject2 {
     public static void main(String[] args) {
         Person p1 = new Person();//new方法相当于malloc函数
