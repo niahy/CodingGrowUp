@@ -4,6 +4,7 @@ public class Person {
     String name;//名字
     int age;//年龄
     double height;//身高
+    Car mycar;
 
     /*
     //这是构造方法，相当于初始化对象的属性值。当然也可以在主类中创建对象时，给属性赋值
@@ -21,5 +22,12 @@ public class Person {
     }
     public void show(){
         System.out.println("姓名：" + name + "，年龄：" + age + "，身高：" + height);
+    }
+    public void buyCar(Car car){
+        mycar = car;
+        System.out.println(name + "买了一辆" + mycar.brand);
+    }
+    public void drive(){
+        mycar.run();
     }
 }
