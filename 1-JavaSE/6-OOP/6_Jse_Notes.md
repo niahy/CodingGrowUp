@@ -15,7 +15,8 @@
 - 可参考 [PersonObject1.java](src/person/PersonObject1.java)  
 ```
 类名 变量名/对象名 = new 类名();
-例如：person.Person p = new person.Person();
+例如：person.Person p = new Person();
+其实，‘类名（）’就是构造方法
 ```
 在对象类的文件中，可以调用类中声明的方法,如`p.eat();`
 # 对象的底层类似于指针
