@@ -56,6 +56,10 @@ setter：一般是设置属性，需要有传入参数
 1属性私有化2提供getter和setter方法 3有空参构造方法  
 即可称为`vo/javaBean/pojo/entity`类.这些的作用都是与数据库进行映射  
 java中一个对象对应数据库中一条记录，一个属性对应数据库中的字段
-
-
-
+# 方法重载-overload
+一个类的多个方法，方法名相同，参数不同。也就是用同一个方法名表达相同语义，通过不同参数提供使用灵活性  
+一般的应用场景：  
+①相同的功能但是需要处理不同参数或者不同的返回值的情况。  
+比如示例中的不同数据类型的加法运算-[OverloadTest1.java](src/overload/OverloadTest1.java)  
+②需要多种实例化对象的方式  
+比如实示例中的空参构造、单参构造、多参构造-[Person2.java](src/overload/Person2.java)和[Person2Test.java](src/overload/Person2Test.java)
