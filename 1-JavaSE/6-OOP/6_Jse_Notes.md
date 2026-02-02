@@ -37,3 +37,20 @@
 即：一个类可以有另一个类的对象作为属性，并且可以调用那个对象的方法  
 [Car](src/person/Car.java)实体类中定义的方法被[Person](src/person/Person.java)中的方法调用了，不过前提是`Car`作为`Person`的属性  
 这钟关系常常适用于现实中具有组合关系的对象，在开发时符合现实逻辑
+# 类的封装
+## 属性（成员变量）私有化
+- 可参考 [Class.java](src/private_set_get/Class.java)  
+通常情况下，类中的属性需要使用`private`修饰，私有属性不能被外部访问  
+如果需要对属性进行赋值或返回等，需要使用`set()、get()`方法。  
+两者可以在idea中使用快捷键`alt+insert`自动生成  
+getter：获取属性，返回属性值  
+setter：一般是设置属性，需要有传入参数  
+测试类演示可见[ClassTest1.java](src/private_set_get/ClassTest1.java)
+### this关键字
+其中，set()方法中的`this`关键字是指当前对象，`this.属性名`表示当前对象的属性名  
+所以，`this.name = name;`指的就是将传入的name赋值给当前对象的name，`this`的作用就是避免混淆  
+什么是当前对象？谁调用了这个方法。谁就是当前对象。  
+使用`this`关键字不是必须的，只要保证属性名不冲突即可  
+
+
+
