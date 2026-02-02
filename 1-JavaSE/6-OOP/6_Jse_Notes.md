@@ -52,8 +52,9 @@ setter：一般是设置属性，需要有传入参数
 什么是当前对象？谁调用了这个方法。谁就是当前对象。  
 使用`this`关键字不是必须的，只要保证属性名不冲突即可  
 # vo/javaBean/pojo/entity
-满足三个条件：1属性私有化2提供getter和setter方法 3有空参构造方法  
-即可称为`vo/javaBean/pojo/entity`类.
+满足三个条件：  
+1属性私有化2提供getter和setter方法 3有空参构造方法  
+即可称为`vo/javaBean/pojo/entity`类.这些的作用都是与数据库进行映射  
 java中一个对象对应数据库中一条记录，一个属性对应数据库中的字段
 
 
